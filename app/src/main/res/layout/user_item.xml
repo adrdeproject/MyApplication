@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="top"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/contact_user"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="360dp"
+        android:layout_height="@dimen/_55sdp"
+        android:layout_marginLeft="@dimen/_20sdp"
+        android:background="@drawable/curvedrec">
+
+        <ImageView
+            android:id="@+id/user_image"
+            android:layout_width="@dimen/_55sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_margin="@dimen/_3sdp"
+            android:src="@drawable/pngwing">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/chat_username"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_50sdp"
+            android:text="Username"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+
+            ></TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
